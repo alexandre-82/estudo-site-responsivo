@@ -1,0 +1,168 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'PaytoneOne';
+    src: url("../_fonts/PaytoneOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../_fonts/OpenSans-Regular.ttf");
+    }
+/* Codigo das cores da marca:
+    cor PANTONE 704 C - parte superior esquerda do hexágono = #98182e
+    cor PANTONE 170 C - parte interna do hexágono = #e7303d
+    cor PANTONE 711 C - parte inferior diteita do hexágono e palavra CONSTRUÇÃO = #cd2439
+    cor PANTONE 446 C - texto ARTE DA = #474647
+
+    cores escala de cinza da marca:
+    cor PANTONE Cool gray 11 C - parte superior do hexágono e texto ARTE DA = #323232
+    cor PANTONE cool gray 9C - parte interna do hexágono = #626262
+    cor PANTONE 711 C - parte inferior diteita do hexágono e palavra CONSTRUÇÃO = #484848
+
+    cores escala de preto e branco da marca:
+    cor PANTONE 663 C - branco = #ffffff
+    cor PANTONE black 6C - preto = #000000
+
+
+*/
+
+body {
+    font-family: 'OpenSans', sans-serif;
+    background-color: #98182e;
+    color: #000000;
+}
+
+div#divCabecalho {
+    width: 800px;
+    background-color: #ffffff;
+    /* configurar centralizção do objeto - magin (cima, direita, baixo e esquerda) - USAR SEMPRE AS MARGENS DIREITA E ESQUERDA EM AUTO PARA CENTRALIZAR O OBJETO. */
+    margin: -5px auto 0px auto;
+    /*coloca sombra na borda do objeto*/
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    /* atribui espaçamento interno ao objeto seguindo os mesmos parametros de margem para as medidas cima, direita, baixo  e esquerda ou igual abaixo o que aplica a mesma medida para o quadro */
+    padding: 10px;
+}
+
+div#recepcao {
+    width: 800px;
+    background-color: #ffffff;
+    margin: 0px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px;
+}
+
+div#institucional {
+    width: 800px;
+    background-color: #ffffff;
+    /* configurar centralizção do objeto - magin (cima, direita, baixo e esquerda) - USAR SEMPRE AS MARGENS DIREITA E ESQUERDA EM AUTO PARA CENTRALIZAR O OBJETO. */
+    margin: 0px auto 0px auto;
+    /*coloca sombra na borda do objeto*/
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    /* atribui espaçamento interno ao objeto seguindo os mesmos parametros de margem para as medidas cima, direita, baixo  e esquerda ou igual abaixo o que aplica a mesma medida para o quadro */
+    padding: 10px;
+}
+
+div#produtos {
+    width: 800px;
+    background-color: #ffffff;
+    margin: 0px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px;
+}
+
+div#videos {
+    width: 800px;
+    background-color: #ffffff;
+    margin: 0px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px;
+}
+
+div#fotos {
+    width: 800px;
+    background-color: #ffffff;
+    margin: 0px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px;
+}
+
+div#divRodape {
+    width: 800px;
+    background-color: #474647;
+    color: #ffffff;
+    /* configurar centralizção do objeto - magin (cima, direita, baixo e esquerda) - USAR SEMPRE AS MARGENS DIREITA E ESQUERDA EM AUTO PARA CENTRALIZAR O OBJETO. */
+    margin: 0px auto 0px auto;
+    /*coloca sombra na borda do objeto*/
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    /* atribui espaçamento interno ao objeto seguindo os mesmos parametros de margem para as medidas cima, direita, baixo  e esquerda ou igual abaixo o que aplica a mesma medida para o quadro */
+    padding: 10px;
+}
+
+.h2corpo {
+    font-family: 'PaytoneOne', sans-serif;
+    color: #474647;
+}
+
+.h2rdp {
+    font-family: 'PaytoneOne', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin: 0%;
+    
+}
+
+section#corpo {
+    display: block;
+    width: 800px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+img#logo {
+    width: 300px;
+    position: relative;
+    left: 30px;
+    top: 0px;
+}
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu h2 {
+    display: none;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 5px;
+    left: 400px;
+}
+
+footer#rodape {
+    font-family: 'OpenSans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+

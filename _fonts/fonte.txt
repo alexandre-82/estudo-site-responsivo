@@ -1,0 +1,40 @@
+Informações para uso da fonte
+
+
+
+ARTE DA CONSTRUÇÃO
+----------------------------------------------------------------------------------
+STANDARD
+
+<link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
+
+@IMPORT
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Paytone+One');
+</style>
+
+css
+
+
+font-family: 'Paytone One', sans-serif;
+
+
+
+Construindo Sonhos
+-------------------------------------------------------------------------------
+
+STANDARD
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+@IMPORT
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+</style>
+
+css
+
+
+font-family: 'Open Sans', sans-serif;
