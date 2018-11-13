@@ -1,0 +1,3 @@
+npm WARN deprecated bower@1.8.4: We don't recommend using Bower for new projects. Please consider Yarn and Webpack or Parcel. You can read how to migrate legacy project here: https://bower.io/blog/2017/how-to-migrate-away-from-bower/
+/usr/bin/bower -> /usr/lib/node_modules/bower/bin/bower
++ bower@1.8.4

@@ -1,0 +1,18 @@
+{
+  "name": "artedaconstrucao",
+  "homepage": "https://github.com/alexandre-82/estudo-site-responsivo",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}
