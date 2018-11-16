@@ -1,0 +1,38 @@
+PADRÕES BASE PARA USAR NA CRIAÇÃO DE SITE RESPONSIVO
+
+VARIAVEIS DE MUDANÇA DE LAYOUT
+
+Mix para utilizar em conjunto com o breakpoint
+----------------------------------------------
+$celular: max-width 440px
+$tablet: max-width 991px
+
++breakpoint($celular)
+
+
+
+
+MEDIDAS DE FLEXBOX
+
+=flexbox
+	display: -webkit-box
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flexbox
+	display: flex
+
+=border-radius($borda)
+	border-radius: $borda
+
++border-radius(140px)
+
+SINTAXE = "+gradient($angle, $gradient1, $gradient2)
+
++gradient(90deg, #000, transparent)
+
+
+
+
+
+***********************************
+OBS. : ESTUDAR DOCUMENTAÇÃO DO 'sass', POIS TRAS TUDO QUE POSSO USAR PARA FACILITAR O DESENVOLVIMENTO DE SITE REPONSIVO E TODO TIPO DE SITE ADIANTA BASTANTE.
