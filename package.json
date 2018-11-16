@@ -1,7 +1,6 @@
 {
   "name": "artedaconstrucao",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,8 +16,12 @@
   },
   "homepage": "https://github.com/alexandre-82/estudo-site-responsivo#readme",
   "devDependencies": {
+    "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
-    "gulp-ruby-sass": "^4.0.0",
-    "gulp-sass": "^4.0.2"
-  }
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-watch": "^5.0.1"
+  },
+  "dependencies": {},
+  "description": ""
 }
