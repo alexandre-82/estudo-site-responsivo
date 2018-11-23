@@ -22,14 +22,20 @@ sudo git push --all
 
 
 criar um branch
-git ckeckout -b nome_novo_branch
+git checkout -b nome_novo_branch
 
 mover para um branch criado
-git ckeckout nome_branch
+git checkout nome_branch
 
 
 
 -------------------------------------------
+BKP:
+zip -r bkp.zip artedaconstrucao/
+
+
+
+
 
 chown -R root:web /var/www
 chmod -R g+rw /var/www

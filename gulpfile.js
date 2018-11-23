@@ -5,7 +5,7 @@ var watch = require('gulp-watch');
 // task para o sass (função que grava alterações do sass para arquivos de css)
 gulp.task('sass', function(){
     return gulp.src('sass/**/*.sass')
-    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError)) //{outputStyle: 'compressed'}
     .pipe(gulp.dest('css'));
 }) ;
 
