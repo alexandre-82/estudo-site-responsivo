@@ -22,6 +22,8 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-watch": "^5.0.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.5.0"
+  },
   "description": ""
 }
