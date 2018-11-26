@@ -30,6 +30,8 @@ git checkout nome_branch
 
 passar as alterações do branch html para o master:
 
+parar o gulp
+
 sudo git add .
 sudo git commit -m 'DESCRICAO DO COMMIT'
 sudo git push --all
