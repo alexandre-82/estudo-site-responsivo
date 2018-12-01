@@ -6,7 +6,7 @@
 	<title>Site Responsivo</title>
 	<link rel="stylesheet" href="css/geral.css">
 	<link rel="stylesheet" href="css/plugins.css">
-	<link rel="stylesheet" href="css/sobre.css">
+	<link rel="stylesheet" href="css/contato.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	
 	
@@ -41,63 +41,71 @@
 				</ul>
 			</div>
 
-			<h1> <strong  class="paytone">Quem</strong> sou <strong class="paytone">Eu</strong></h1>
+			<h1>Fale <strong class="paytone">Comigo</strong></h1>
 
 			<p>Lorem ipsum dolor sit amet.</p>
-
 		</div>
-
 	</header>
 
 	<main>
-		<section class="sobre" id="id-sobre">
+		<section class="contato">
 			<div class="container">
-				<div class="textos">
-					<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit. Ipsam minus iusto illum necessitatibus cumque. Tempora necessitatibus quidem dignissimos dolore magni consequuntur! Inventore impedit, aut reiciendis rerum! Voluptatem laboriosam soluta saepe.</p>
-				</div>
+				<form>
+					<div class="cols">
+						<div class="col">
+							<div class="form-group">
+								<input type="text" placeholder="Nome" required>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="form-group">
+								<input type="email" placeholder="E-mail">
+							</div>
+						</div>
+						
+						<div class="col">
+							<div class="form-group">
+								<input type="number" placeholder="Telefone">
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="form-group">
+								<select>
+									<option>Selecione uma opção</option>
+									<option>Orçamento</option>
+									<option>Sugestão</option>
+									<option>Outras Informações</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<textarea placeholder="Escreva sua Mensagem aqui"></textarea>
+					</div>
+
+					<div class="form-group">
+						<button class="botao medio"><i class="fa fa-arrow-right"></i> Enviar Contato</button>
+					</div>
+					
+
+					<p class="bg-success"><i class="fa fa-info-circle"></i> Seu contato foi enviado com sucesso.</p>
+					<p class="bg-danger"><i class="fa fa-info-circle"></i> Preencha todos os campos obrigatórios.</p>
 
 
-				<ul class="habilidades">
-					<li class="habilidade-8">
-						<h2>
-							<i class="fab fa-html5"></i> <strong>HTML5</strong> // 80%
-							<div class="barra"><span></span></div>
-						</h2>
-					</li>
-					<li class="habilidade-5">
-						<h2>
-							<i class="fab fa-css3"></i> <strong>CSS3</strong> // 50%
-							<div class="barra"><span></span></div>
-						</h2>
-					</li>
-					<li class="habilidade-7">
-						<h2>
-							<i class="fab fa-wordpress"></i> <strong>Wordpress</strong> // 70%
-							<div class="barra"><span></span></div>
-						</h2>
-					</li>
-					<li class="habilidade-3">
-						<h2>
-							<i class="fab fa-git"></i> <strong>Git</strong> // 30%
-							<div class="barra"><span></span></div>
-						</h2>
-					</li>
-				</ul>
-
-
-
-				<a href="portfolio.html" class="botao medio"><i class="fa fa-image"></i>Acessar Portfolio</a>
+				</form>
 			</div>
 		</section>
-	</main> 
+	</main>
+
 	<footer>
 		<div class="logo-rodape">
 			<a href="index.html">
 				<img src="imagens/fe.jpg" alt="Logo TAG Rodapé">
-			</a>
-			
+			</a>		
 			<p>2018 Todos os Direitos Reservados</p>
-
 		</div>
 	</footer>
 </body>
